@@ -6,8 +6,8 @@ import Person from "../../../../assets/images/person.png";
 const AtmCards = () => {
   return (
     <div>
-      <div className="container w-[70%] mx-auto">
-        <div className="bg-[#1E293B] h-[550px] rounded-tr-[104px] p-6">
+      <div className="">
+        <div className="bg-[#1E293B] h-[550px] rounded-tr-[104px] p-6"> 
           <div className="grid grid-cols-12 gap-6 h-full">
             <div className="col-span-5 flex flex-col justify-center space-y-4 ml-10 ">
               <div className="text-white font-font-aspekta text-[44px] font-bold leading-[44px]">

@@ -7,7 +7,7 @@ const AtmCards = () => {
   return (
     <div>
       <div className="container w-[70%] mx-auto mt-20">
-        <div className="bg-[#F3F7FA] h-[550px] rounded-tr-[104px] p-6">
+        <div className="bg-[#F3F7FA] h-[550px] rounded-tl-[104px] p-6">
           <div className="grid grid-cols-12 gap-6 h-full">
           <div className="col-span-6 space-y-4">
               <div className="mt-5 ">

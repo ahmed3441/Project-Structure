@@ -4,9 +4,13 @@ import CircleSvg from "../../../../assets/svg/circle.svg";
 import Card from "../../../../assets/images/cards.png";
 import Button from "../landingcomponents/Button.jsx";
 
+
 import Cards from "../landingcomponents/Cards.jsx";
 import AtmCards from "./AtmCards.jsx";
 import MapCard from "./MapCard.jsx";
+import BrandRewards from "./BrandRewards.jsx";
+import Accounts from "./Accounts.jsx";
+import ComplianceCard from "./ComplianceCard.jsx";
 
 const MainPage = () => {
   return (
@@ -68,6 +72,9 @@ const MainPage = () => {
       <Cards/>
       <AtmCards/>
       <MapCard/>
+      <BrandRewards/>
+      <Accounts/>   
+      <ComplianceCard/>
     </div>
   );
 };
