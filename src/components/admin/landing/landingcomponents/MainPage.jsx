@@ -11,6 +11,9 @@ import MapCard from "./MapCard.jsx";
 import BrandRewards from "./BrandRewards.jsx";
 import Accounts from "./Accounts.jsx";
 import ComplianceCard from "./ComplianceCard.jsx";
+import Subscriptions from "./Subscriptions.jsx";
+import FAQS from "./FAQs.jsx";
+import Footer from "./Footer.jsx";
 
 const MainPage = () => {
   return (
@@ -19,11 +22,16 @@ const MainPage = () => {
         <div className="container w-3/5">
           <div className="flex mt-5 justify-between items-center w-full">
             <BsGearFill className="text-blue-900 text-3xl" />
-            <Button
+            {/* <Button
               className="text-white bg-blue-950 font-font-aspekta font-semibold p-2 rounded-full px-5 flex items-center group"
               text="Get your card"
               icon={FaArrowRight}
-            />
+            /> */}
+            <Button
+        color="blue"
+        text="Get your card"
+        icon={FaArrowRight}
+      />
           </div>
 
           <div className="flex mt-12">
@@ -46,16 +54,26 @@ const MainPage = () => {
                 have to set it up once, and get beautiful results forever.
               </div>
 
-              <div className="flex mt-7">
-              <Button
+              <div className="flex mt-7 space-x-4">
+              {/* <Button
               className="text-white bg-blue-950 font-font-aspekta font-semibold p-2 rounded-full px-5 flex items-center group"
               text="Get your card"
               icon={FaArrowRight}
-            />
-            <Button
+            /> */}
+             <Button
+        color="blue"
+        text="Get your card"
+        icon={FaArrowRight}
+      />
+
+<Button
+        color="lightBlue"
+        text="Read documentation"/>
+      
+            {/* <Button
               className="text-white bg-sky-400 font-font-aspekta font-semibold p-2 rounded-full px-5 mx-5"
               text="Read documentation"              
-            />
+            /> */}
               </div>
             </div>
 
@@ -75,6 +93,9 @@ const MainPage = () => {
       <BrandRewards/>
       <Accounts/>   
       <ComplianceCard/>
+      <Subscriptions/>
+      <FAQS/>
+      <Footer/>
     </div>
   );
 };

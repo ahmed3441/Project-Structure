@@ -7,7 +7,7 @@ const AtmCards = () => {
   return (
     <div>
       <div className="">
-        <div className="bg-[#1E293B] h-[550px] rounded-tr-[104px] p-6"> 
+        <div className="bg-[#1E293B] h-[550px] rounded-tr-[104px] p-6 container w-[70%] mx-auto"> 
           <div className="grid grid-cols-12 gap-6 h-full">
             <div className="col-span-5 flex flex-col justify-center space-y-4 ml-10 ">
               <div className="text-white font-font-aspekta text-[44px] font-bold leading-[44px]">
@@ -19,11 +19,17 @@ const AtmCards = () => {
                 veniam, quis nostrud exercitation.
               </div>
               <div>
-                <Button
+              <Button
+        color="darkBlue"
+        text="Get your card"
+        icon={FaArrowRight}
+      />
+      
+                {/* <Button
                   className="text-white bg-blue-600 font-font-aspekta font-semibold p-2 rounded-full px-5 flex items-center group hover:bg-blue-700"
                   text="Get your card"
                   icon={FaArrowRight}
-                />
+                /> */}
               </div>
               <div className="flex">
                 <img

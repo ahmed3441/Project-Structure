@@ -7,7 +7,7 @@ const AtmCards = () => {
   return (
     <div>
       <div className="container w-[70%] mx-auto mt-20">
-        <div className="bg-[#F3F7FA] h-[550px] rounded-tl-[104px] p-6">
+        <div className="bg-gradient-to-b from-[#F3F7FA] to-white h-[550px] rounded-tl-[104px] p-6">
           <div className="grid grid-cols-12 gap-6 h-full">
           <div className="col-span-6 space-y-4">
               <div className="mt-5 ">
@@ -28,11 +28,16 @@ const AtmCards = () => {
                 veniam, quis nostrud exercitation.
               </div>
               <div>
-                <Button
+              <Button
+        color="darkBlue"
+        text="Get your card"
+        icon={FaArrowRight}
+      />
+                {/* <Button
                   className="text-white bg-blue-600 font-font-aspekta font-semibold p-2 rounded-full px-5 flex items-center group hover:bg-blue-700"
                   text="Get your card"
                   icon={FaArrowRight}
-                />
+                /> */}
               </div>
               <div className="flex">
                 <img
