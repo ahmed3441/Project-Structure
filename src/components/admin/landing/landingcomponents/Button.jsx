@@ -15,7 +15,7 @@
 
 const Button = ({ type = 'button', className,  color = 'blue', text = 'Button', onClick, disabled = false, icon: Icon }) => {
   // Define base styles for the button
-  const baseStyle = `text-white text-[15px] bg-blue-950 font-font-aspekta font-semibold p-2 rounded-full px-5 flex items-center group`;
+  const baseStyle = `text-white text-[15px] font-font-aspekta font-semibold p-2 rounded-full px-5 flex items-center group`;
 
   // Define styles for different colors
   const colorStyles = {
