@@ -46,11 +46,11 @@ const AtmCards = () => {
             </div>
             <div className="col-span-7 space-y-4">
               <div >
-                <img
+                {/* <img
                   src={AtmCard}
                   alt=""
                   className="rotate-45 h-[500px] absolute mt-48"
-                />
+                /> */}
               </div>
             </div>  
           </div>

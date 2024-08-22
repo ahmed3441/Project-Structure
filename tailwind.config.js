@@ -9,8 +9,8 @@ export default {
       fontFamily: {
         'font-aspekta': ['"Tex Aspekta"', 'sans-serif'],
       },
-      boxShadow: {
-        'custom-blue': '0px 8px 15px #2A4D86',
+      padding: {
+        'custom-blue': "100px",
       },  
     },
   },

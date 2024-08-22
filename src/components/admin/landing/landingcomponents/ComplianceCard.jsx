@@ -34,7 +34,6 @@ const AtmCards = () => {
         <div className="bg-gradient-to-b from-[#F3F7FA] to-white h-[550px] rounded-tl-[104px] p-6">
           <div className="grid grid-cols-12 gap-6 h-full">
             
-            {/* Custom Carousel Section */}
             <div className="col-span-6 flex flex-col items-center mt-12">
   <div className="relative w-96">
     <div className="relative w-full h-auto bg-gradient-to-t from-[#334155] to-[#b9c2cf]">
