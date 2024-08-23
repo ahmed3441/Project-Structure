@@ -19,7 +19,7 @@
     return (
       <div>
        <div className="bg-[#3478F3] h-[550px] rounded-bl-[104px] flex justify-center">
-  <div className="container mx-auto px-0 lg:px-10 lg:w-full xl:w-[63%]">
+  <div className="container mx-auto px-3 lg:px-10 lg:w-full xl:w-[63%]">
     <div className="flex mt-5 justify-between items-center w-full">
       <BsGearFill className="text-blue-900 text-3xl" />
       <Button color="blue" text="Get your card" icon={FaArrowRight} />

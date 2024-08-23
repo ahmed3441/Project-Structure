@@ -30,7 +30,7 @@ const FAQS = () => {
   return (
     <div>
       <div className="">
-        <div className="mt-10 h-[550px] p-6 container w-[65%] mx-auto"> 
+        <div className="mt-10 xl:h-[550px] p-6 container w-full md:w-[65%] mx-auto"> 
             <div className="text-[44px] leading-[44px] text-[#1e293b] font-bold">
                 FAQs
             </div>

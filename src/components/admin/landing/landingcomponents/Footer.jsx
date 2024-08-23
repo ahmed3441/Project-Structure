@@ -49,10 +49,10 @@ const Footer = () => {
 
     return (
       <div>
-        <div className="bg-[#1E293B] h-[550px] ">
-          <div className="container w-[65%] mx-auto ">
+        <div className="bg-[#1E293B] lg:h-[550px] ">
+          <div className="container w-full md:w-[65%] mx-auto ">
             <div className="grid grid-cols-12 items-center">
-            <div className="col-span-8 mt-20">
+            <div className="col-span-12 md:col-span-8 mt-20">
               <div className="text-[#3b82f6] text-xl font-semibold leading-[30px]">
                 What are you waiting for?
               </div>
@@ -60,7 +60,7 @@ const Footer = () => {
                 Get the only custom super card
               </div>
             </div>
-            <div className="col-span-4 flex justify-end space-x-4 mt-12">
+            <div className="col-span-12 justify-center md:col-span-4 flex md:justify-end space-x-4 mt-12">
 
             <Button
         color="darkBlue"
@@ -68,19 +68,11 @@ const Footer = () => {
         icon={FaArrowRight}
       />
 
-            {/* <Button
-              className="text-white bg-blue-600 hover:bg-blue-700 font-font-aspekta font-semibold p-2 rounded-full px-5 flex items-center group"
-              text="Get your card"
-              icon={FaArrowRight}
-            /> */}
             <Button
         color="black"
         text="Get in touch"
       />
-            {/* <Button
-              className="text-white bg-[#334155] hover:bg-transparent font-font-aspekta font-semibold p-2 rounded-full px-5 mx-5"
-              text="Get in touch"              
-            /> */}
+            
             </div>
             </div>
             <hr className="w-full h-px my-8 bg-gray-700 border-0 dark:bg-gray-700 mt-20"/>
@@ -88,7 +80,7 @@ const Footer = () => {
 
 
             <div className="mt-5">
-      <div className="grid grid-cols-1 md:grid-cols-5 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-6">
         {/* First Column with Logo */}
         <div className="">
         <BsGearFill className="text-blue-600 text-3xl" />

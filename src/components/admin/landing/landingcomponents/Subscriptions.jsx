@@ -71,18 +71,18 @@ const Subscriptions = () => {
 
   return (
     <div>
-      <div className="border border-gray-200 mt-10 container w-[70%] mx-auto h-auto rounded-tr-[104px] p-6">
+      <div className="border border-gray-200 mt-10 container w-full md:w-[70%] mx-auto h-auto rounded-tr-[104px] p-6">
         <div className="mt-8">
-          <div className="ml-28">
+          <div className="sm:ml-8">
             <div className="grid grid-cols-12 gap-6">
-              <div className="col-span-8">
-                <div className="text-black font-font-aspekta text-[44px] font-bold leading-[44px]">
+              <div className="col-span-12 sm:col-span-8">
+                <div className="text-black font-font-aspekta text-3xl sm:text-[44px] font-bold leading-9 sm:leading-[44px]">
                   Get the only custom super card you will ever need
                 </div>
               </div>
             </div>
             <div className="grid grid-cols-12 gap-6">
-              <div className="col-span-7">
+              <div className="col-span-12 sm:col-span-7">
                 <div className="mt-4 font-font-aspekta text-[#7B899C] text-lg leading-7 font-normal">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.

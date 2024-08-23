@@ -7,7 +7,7 @@ import Card3 from "../../../../assets/svg/card3.svg";
 const Accounts = () => {
     return (
       <div>
-        <div className="mt-10 container w-[70%] mx-auto bg-[#3478F3] h-[850px] rounded-tr-[104px] p-6">
+        <div className="mt-10 container w-full md:w-[70%] mx-auto bg-[#3478F3] 2xl:h-[850px] rounded-tr-[104px] p-6">
             <div className=" mt-8">
                 <div className="ml-28">
           <div className="grid grid-cols-12 gap-6">
