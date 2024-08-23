@@ -56,7 +56,7 @@ const AtmCards = () => {
   </div>
 </div> */}
 
-<div className="col-span-12 lg:col-span-6 flex flex-col items-center mt-12 lg:order-2">
+<div className="col-span-12 lg:col-span-6 flex flex-col items-center mt-12 lg:order-2 mb-10 md:mb-0">
   <div className="relative md:w-96 lg:order-1 h-[400px]">
     <div className="relative w-full h-auto bg-gradient-to-t from-[#334155] to-[#b9c2cf]">
       <img src={slides[currentSlide].image} alt="Slide" className="w-full h-auto object-cover" />
@@ -95,8 +95,8 @@ const AtmCards = () => {
 
 
             {/* Text Section */}
-            <div className="col-span-12 lg:col-span-6 flex flex-col justify-center space-y-4 ml-10 order-1 md:order-2 pr-20">
-              <div className="text-[#1E293B] font-font-aspekta font-bold text-4xl sm:text-[44px] leading-9 sm:leading-[44px]">
+            <div className="col-span-12 lg:col-span-6 flex flex-col justify-center space-y-4 ml-10 order-1 md:order-2 md:pr-20">
+              <div className="text-[#1E293B] font-font-aspekta font-bold text-4xl sm:text-[44px] leading-9 sm:leading-[44px] ">
                 Compliance built card for businesses and professionals
               </div>
               <div className="mt-8 font-font-aspekta text-[#64748b] text-lg leading-[clamp(1rem, 2vw, 1.5rem)] font-normal">

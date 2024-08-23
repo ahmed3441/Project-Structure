@@ -5,7 +5,9 @@ import Person from "../../../../assets/images/person.png";
 
 const AtmCards = () => {
   return (
-    <div className="bg-[#1E293B] xl:h-[37rem] rounded-tr-[100px] p-6 container mx-auto w-full md:w-[70%] py-20 relative">
+    // <div className="bg-[#1E293B] xl:h-[37rem] rounded-tr-[100px] p-6 container mx-auto w-full md:w-[70%] py-20 relative">
+    <div className="bg-[#1E293B] xl:h-[37rem] rounded-tr-[100px] p-6 container mx-auto w-full md:w-[70%] py-20 relative min-h-[34rem] sm:min-h-[33rem] md:min-h-[50rem] lg:min-h-[40rem] xl:min-h-[37rem]">
+
       <div className="grid grid-cols-1 md:grid-cols-12 gap-6 h-full">
         <div className="col-span-1 md:col-span-5 flex flex-col justify-center space-y-4 md:ml-10">
         <div

@@ -5,7 +5,7 @@ import Person from "../../../../assets/images/person.png";
 
 const AtmCards = () => {
   return (
-    <div className="container w-full md:w-[70%] mx-auto mt-20">
+    <div className="container w-full md:w-[70%] mx-auto mt-36 md:mt-20">
       <div className="bg-gradient-to-b from-[#F3F7FA] to-white lg:h-[550px] rounded-tl-[104px] p-6">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-6">
           {/* Text Section */}

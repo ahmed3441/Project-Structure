@@ -49,8 +49,8 @@ const Footer = () => {
 
     return (
       <div>
-        <div className="bg-[#1E293B] lg:h-[550px] ">
-          <div className="container w-full md:w-[65%] mx-auto ">
+        <div className="bg-[#1E293B] 2xl:h-[550px] text-center sm:text-left">
+          <div className="container w-full md:w-[65%] mx-auto">
             <div className="grid grid-cols-12 items-center">
             <div className="col-span-12 md:col-span-8 mt-20">
               <div className="text-[#3b82f6] text-xl font-semibold leading-[30px]">
@@ -67,24 +67,23 @@ const Footer = () => {
         text="Get your card"
         icon={FaArrowRight}
       />
-
             <Button
         color="black"
         text="Get in touch"
       />
-            
             </div>
             </div>
             <hr className="w-full h-px my-8 bg-gray-700 border-0 dark:bg-gray-700 mt-20"/>
 
 
-
-            <div className="mt-5">
+            <div className="mt-5 ">
+      
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-6">
         {/* First Column with Logo */}
-        <div className="">
-        <BsGearFill className="text-blue-600 text-3xl" />
-        </div>
+        <div className="flex justify-center sm:justify-start">
+      <BsGearFill className="text-blue-600 text-3xl" />
+    </div>
+
 
         {headings.map((item, index) => (
           <div key={index} className="space-y-2">

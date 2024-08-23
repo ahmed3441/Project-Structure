@@ -9,16 +9,16 @@ const Accounts = () => {
       <div>
         <div className="mt-10 container w-full md:w-[70%] mx-auto bg-[#3478F3] 2xl:h-[850px] rounded-tr-[104px] p-6">
             <div className=" mt-8">
-                <div className="ml-28">
+                <div className="md:ml-28">
           <div className="grid grid-cols-12 gap-6">
-            <div className="col-span-8">
+            <div className="col-span-12 md:col-span-8">
               <div className="text-white font-font-aspekta text-[44px] font-bold leading-[44px]">
                 Get started in minutes and connect all your accounts in one place
               </div>
             </div>
           </div>
           <div className="grid grid-cols-12 gap-6">
-            <div className="col-span-7">
+            <div className="col-span-12 md:col-span-7">
               <div className="mt-4 font-font-aspekta text-[#A4C9FC] text-lg leading-7 font-normal">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </div>
