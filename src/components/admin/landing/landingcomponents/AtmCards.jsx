@@ -2,6 +2,7 @@ import { FaArrowRight } from "react-icons/fa";
 import AtmCard from "../../../../assets/images/3-cards.png";
 import Button from "./Button";
 import Person from "../../../../assets/images/person.png";
+import BlueShadow from "../../../../assets/svg/cardsIllustration.svg";
 
 const AtmCards = () => {
   return (
@@ -59,7 +60,7 @@ const AtmCards = () => {
             <img
               src={AtmCard}
               alt="ATM Card"
-              className="md:rotate-45 absolute md:mt-32 ml-8"
+              className="md:rotate-45 absolute md:mt-32 ml-8 z-10"
               style={{
                 height: "clamp(200px, 40vw, 550px)",
                 // bottom: "-25%" ,
@@ -67,6 +68,18 @@ const AtmCards = () => {
             />
             <div className="absolute inset-0 bg-[#1E293B] md:hidden" style={{ bottom: 0 }}></div>
           </div>
+
+          <div className="relative">
+          <div className="absolute inset-0 flex items-center top-[350px]  justify-center">
+        <img
+          src={BlueShadow}
+          alt=""
+          className=""
+        />
+      </div>
+      </div>
+
+
         </div>
       </div>
     </div>

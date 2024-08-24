@@ -59,3 +59,7 @@
     width: 70px;
   }
 } */
+.new_gradient {
+  background-image: linear-gradient(to right, #2B5290, #1e3a8a) !important; /* Adjust colors as needed */
+  transform: translate(-50%, 0) rotate(0) skewX(0) skewY(0) scaleX(1) scaleY(1) !important;
+}

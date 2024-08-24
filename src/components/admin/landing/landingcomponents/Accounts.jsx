@@ -3,6 +3,7 @@ import Logos from "../../../../assets/images/logos.png"
 import Card1 from "../../../../assets/svg/card1.svg";
 import Card2 from "../../../../assets/svg/card2.svg";
 import Card3 from "../../../../assets/svg/card3.svg";
+import WhiteShadow from "../../../../assets/svg/logosIllustration.svg";
 
 const Accounts = () => {
     return (
@@ -30,9 +31,21 @@ const Accounts = () => {
           <img
                   src={Logos}
                   alt=""
-                  className=" w-[800px]"
+                  className=" w-[800px] z-10"
                 />
           </div>
+
+<div className="relative">
+          <div className="absolute inset-0 flex items-end top-44  justify-center">
+        <img
+          src={WhiteShadow}
+          alt=""
+          className=""
+        />
+      </div>
+      </div>
+
+
 
           <div className="">
       <div className="container mx-auto w-5/6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 justify-start    ">

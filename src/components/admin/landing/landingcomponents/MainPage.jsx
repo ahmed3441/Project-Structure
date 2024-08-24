@@ -4,6 +4,8 @@
   import Card from "../../../../assets/images/cards.png";
   import Button from "../landingcomponents/Button.jsx";
 
+  import BlueShadow from "../../../../assets/svg/heroIllustration.svg";
+
 
   import Cards from "../landingcomponents/Cards.jsx";
   import AtmCards from "./AtmCards.jsx";
@@ -60,13 +62,7 @@
           left: "clamp(-130px, -8vw, -120px)",
         }}
       />
-      <div className="absolute inset-0 flex items-center justify-center md:hidden">
-        <img
-          src={CircleSvg}
-          alt=""
-          className="w-[650px] h-[110px] mt-10 -ml-16 "
-        />
-      </div>
+     
     </div>
 
 
@@ -84,12 +80,25 @@
         <img
           src={Card}
           alt="Business Cards"
-          className="h-auto"
+          className="h-auto z-10"
           style={{
             height: "clamp(300px, 35vw, 550px)"
           }}
         />
       </div>
+
+      
+      <div className="absolute inset-0 flex items-center justify-center ml-[400px] hidden md:flex -top-48">
+  <img
+    src={BlueShadow}
+    alt=""
+    className=""
+  />
+</div>
+
+  
+
+
     </div>
   </div>
 </div>
