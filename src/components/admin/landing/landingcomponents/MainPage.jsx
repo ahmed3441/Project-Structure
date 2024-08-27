@@ -50,7 +50,7 @@
   />
 </div> */}
 
-<div className="relative flex justify-center items-center ">
+<div className="relative flex justify-center items-center">
       <img
         src={CircleSvg}
         alt=""
