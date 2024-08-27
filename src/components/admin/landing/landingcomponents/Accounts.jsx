@@ -10,9 +10,9 @@ const Accounts = () => {
       <div>
         <div className="mt-10 container w-full md:w-[70%] mx-auto bg-[#3478F3] 2xl:h-[850px] rounded-tr-[104px] p-6">
             <div className=" mt-8">
-                <div className="md:ml-28">
+                <div className="lg:ml-28">
           <div className="grid grid-cols-12 gap-6">
-            <div className="col-span-12 md:col-span-8">
+            <div className="col-span-12 lg:col-span-8">
               <div className="text-white font-font-aspekta text-[44px] font-bold leading-[44px]">
                 Get started in minutes and connect all your accounts in one place
               </div>
@@ -31,7 +31,7 @@ const Accounts = () => {
           <img
                   src={Logos}
                   alt=""
-                  className=" w-[800px] z-10"
+                  className="w-[800px] z-10"
                 />
           </div>
 
@@ -44,7 +44,6 @@ const Accounts = () => {
         />
       </div>
       </div>
-
 
 
           <div className="">

@@ -42,7 +42,7 @@ const AtmCards = () => {
               <div className="grid grid-cols-1 sm:grid-cols-12 gap-4">
                 <div className="col-span-1 sm:col-span-6 flex flex-col space-y-4">
                   <div className="text-lg font-bold text-center sm:text-left">Physical Stores</div>
-                  <ul className="list-none">
+                  <ul className="grid grid-cols-2 sm:grid-cols-1 list-none">
                     {physicalStoresItems.map((item, index) => (
                       <li
                         key={index}
@@ -57,7 +57,7 @@ const AtmCards = () => {
 
                 <div className="col-span-1 sm:col-span-6 flex flex-col space-y-4">
                   <div className="text-lg font-bold text-center sm:text-left">Online Stores</div>
-                  <ul className="list-none">
+                  <ul className="grid grid-cols-2 sm:grid-cols-1 list-none">
                     {onlineStoresItems.map((item, index) => (
                       <li
                         key={index}
@@ -80,7 +80,7 @@ const AtmCards = () => {
               <img
                 src={FourCards}
                 alt=""
-                className="h-[500px] w-full md:w-auto mx-0 md:mx-20"
+                className="lg:h-[500px] w-full md:w-auto mx-0 md:mx-20"
               />
             </div>
           </div>

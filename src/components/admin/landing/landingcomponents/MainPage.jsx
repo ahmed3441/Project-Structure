@@ -21,7 +21,7 @@
     return (
       <div>
        <div className="bg-[#3478F3] h-[550px] rounded-bl-[104px] flex justify-center">
-  <div className="container mx-auto px-3 lg:px-10 lg:w-full xl:w-[63%]">
+  <div className="container mx-auto px-3 md:px-8 lg:px-10 lg:w-full xl:w-[63%]">
     <div className="flex mt-5 justify-between items-center w-full">
       <BsGearFill className="text-blue-900 text-3xl" />
       <Button color="blue" text="Get your card" icon={FaArrowRight} />
@@ -60,6 +60,21 @@
           height: "clamp(60px, 15vw, 160px)",
           top: "clamp(-65px, -4vw, -64px)",
           left: "clamp(-130px, -8vw, -120px)",
+        }}
+      />
+     
+    </div>
+
+    <div className="relative flex justify-center items-center">
+      <img
+        src={CircleSvg}
+        alt=""
+        className="block md:hidden absolute"
+        style={{
+          width: "clamp(150px, 30vw, 384px)",
+          height: "clamp(60px, 15vw, 160px)",
+          top: "clamp(-35px, -4vw, -64px)",
+          left: "clamp(160px, -8vw, -120px)",
         }}
       />
      

@@ -44,7 +44,7 @@ const AtmCards = () => {
             <img
               src={Map}
               alt=""
-              className="h-[500px] w-full md:w-auto mx-0 md:mx-20"
+              className="lg:h-[500px] w-full md:w-auto mx-0 md:mx-20"
             />
           </div>
         </div>
