@@ -57,7 +57,7 @@ const AtmCards = () => {
 </div> */}
 
 <div className="col-span-12 lg:col-span-6 flex flex-col items-center mt-12 lg:order-2 mb-10 md:mb-0">
-  <div className="relative md:w-96 lg:order-1 h-[400px]">
+  <div className="relative sm:w-96 lg:order-1 h-[400px]">
     <div className="relative w-full h-auto bg-gradient-to-t from-[#334155] to-[#b9c2cf]">
       <img src={slides[currentSlide].image} alt="Slide" className="w-full h-auto object-cover" />
       <div className="absolute inset-0 bg-gradient-to-t from-[#000000] to-transparent opacity-100"></div>
