@@ -20,7 +20,7 @@ const AtmCards = () => {
           >    Build a flexible card program for your business needs
           </div>
           <div
-            className="mt-8 font-font-aspekta text-[#94a3b8]"
+            className="mt-8 font-text"
             style={{
               fontSize: "clamp(0.875rem, 1.5vw, 1rem)",
               lineHeight: "clamp(1.25rem, 2vw, 1.5rem)"
@@ -44,7 +44,7 @@ const AtmCards = () => {
               className="w-8 h-8 rounded-full"
             />
             <p
-              className="font-font-aspekta text-[#94a3b8] leading-6 font-normal ml-2"
+              className="font-text leading-6 font-normal ml-2"
               style={{
                 fontSize: "clamp(0.875rem, 1vw, 1rem)"
               }}

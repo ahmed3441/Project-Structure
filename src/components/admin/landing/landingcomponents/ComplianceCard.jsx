@@ -3,6 +3,8 @@ import { FaCheckCircle } from 'react-icons/fa';
 import Girl from '../../../../assets/images/girl.jpg';
 import Girl2 from '../../../../assets/images/girl2.jpg';
 
+import '../../../../../src/App.css';
+
 const AtmCards = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
@@ -99,14 +101,14 @@ const AtmCards = () => {
               <div className="text-[#1E293B] font-font-aspekta font-bold text-4xl sm:text-[44px] leading-9 sm:leading-[44px] ">
                 Compliance built card for businesses and professionals
               </div>
-              <div className="mt-8 font-font-aspekta text-[#64748b] text-lg leading-[clamp(1rem, 2vw, 1.5rem)] font-normal">
+              <div className="mt-8 text-indentation leading-[clamp(1rem, 2vw, 1.5rem)]">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua minim veniam, quis nostrud exercitation.
               </div>
               <div>
                 {helloItems.map((item, index) => (
                   <div key={index} className="flex items-center space-x-2">
                     <FaCheckCircle className="text-blue-500" />
-                    <span className="font-font-aspekta text-[#64748b] text-lg leading-[clamp(1rem, 2vw, 1.5rem)] font-normal">{item}</span>
+                    <span className="text-indentation leading-[clamp(1rem, 2vw, 1.5rem)] ">{item}</span>
                   </div>
                 ))}
               </div>

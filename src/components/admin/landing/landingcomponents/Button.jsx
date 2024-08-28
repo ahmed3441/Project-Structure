@@ -24,13 +24,7 @@ const Button = ({ type = 'button', className,  color = 'blue', text = 'Button', 
     darkBlue: 'bg-[#3B82F6] text-white hover:bg-blue-600',
     darksBlue: 'bg-[#3B82F6] text-white hover:bg-blue-600 w-full flex justify-center mt-5',
         Darkblack: 'bg-[#334155] text-white hover:bg-transparent w-full flex justify-center mt-5',
-    // red: 'bg-red-500 text-white hover:bg-red-600',
-    // green: 'bg-green-500 text-white hover:bg-green-600',
-    // yellow: 'bg-yellow-500 text-white hover:bg-yellow-600',
-    // gray: 'bg-gray-500 text-white hover:bg-gray-600',
     black: 'bg-[#334155] text-white hover:bg-transparent',
-    // white: 'bg-white text-black border border-gray-300 hover:bg-gray-100',
-    // transparent: 'bg-transparent text-blue-500 hover:bg-blue-100',
   };
 
   return (

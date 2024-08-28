@@ -80,7 +80,6 @@
      
     </div>
 
-
         </div>
         <div className="mt-8 font-font-aspekta text-blue-200 text-lg leading-7 font-normal">
           Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.

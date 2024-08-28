@@ -13,7 +13,7 @@ const AtmCards = () => {
             <div className="text-[#1E293B] font-font-aspekta text-[32px] leading-8 md:text-[44px] font-bold md:leading-[44px] text-center md:text-left">
               Spend your money everywhere, pay anyone effortlessly
             </div>
-            <div className="mt-8 font-font-aspekta text-[#64748b] text-[clamp(0.875rem, 1.5vw, 1rem)] leading-[clamp(1.25rem, 2vw, 1.5rem)] text-center md:text-left">
+            <div className="mt-8 font-color text-[clamp(0.875rem, 1.5vw, 1rem)] leading-[clamp(1.25rem, 2vw, 1.5rem)] text-center md:text-left">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua minim
               veniam, quis nostrud exercitation.
@@ -31,7 +31,7 @@ const AtmCards = () => {
                 alt="person"
                 className="w-8 h-8 rounded-full ml-2 cursor-pointer"
               />
-              <p className="font-font-aspekta text-[#64748b] text-[clamp(0.875rem, 1vw, 1rem)] leading-6 font-normal ml-2 mt-3 text-center md:text-left">
+              <p className="font-color text-[clamp(0.875rem, 1vw, 1rem)] leading-6 font-normal ml-2 mt-3 text-center md:text-left">
                 “We know the card market very well and this product provides
                 the speed, flexible account model and API-first approach that
                 no one else can.”

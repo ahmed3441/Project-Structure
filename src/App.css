@@ -1,45 +1,4 @@
-/* #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-} */
 
 @media (max-width: 639px) {
   .w-64 {
@@ -62,4 +21,34 @@
 .new_gradient {
   background-image: linear-gradient(to right, #2B5290, #1e3a8a) !important; /* Adjust colors as needed */
   transform: translate(-50%, 0) rotate(0) skewX(0) skewY(0) scaleX(1) scaleY(1) !important;
+}
+
+.text-indentation {
+  @apply text-[#64748b] font-normal text-lg font-font-aspekta;
+}
+
+/*CARDS CLASSES*/
+.card-main {
+ @apply bg-white p-4 rounded flex flex-col relative;
+}
+.card-img{
+  @apply w-12 h-12 mb-4;  
+}
+.card-heading{
+  @apply text-xl font-bold leading-7 font-font-aspekta mb-2;
+}
+.card-content{
+  @apply text-base leading-6 font-normal text-gray-600;
+}
+.card-divider{
+  @apply absolute inset-y-0 right-0 w-0.5 h-16 bg-gray-300;
+}
+
+/*FONT*/
+.font-text{
+  @apply font-font-aspekta text-[#94a3b8];
+}
+
+.font-color{
+  @apply font-font-aspekta text-[#64748b];
 }
