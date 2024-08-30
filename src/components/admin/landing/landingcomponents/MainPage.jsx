@@ -16,16 +16,57 @@
   import Subscriptions from "./Subscriptions.jsx";
   import FAQS from "./FAQs.jsx";
   import Footer from "./Footer.jsx";
+  import { motion, useInView } from 'framer-motion';
+import { useRef } from "react";
+
 
   const MainPage = () => {
+
+  // const ref = useRef(null);
+  // const isInView = useInView(ref, { once: true, margin: '0px 0px -100px 0px' });
+
+
+
+  const ref1 = useRef(null);
+  const ref2 = useRef(null);
+  const ref3 = useRef(null);
+  const ref4 = useRef(null);
+  const ref5 = useRef(null);
+  const ref6 = useRef(null);
+  const ref7 = useRef(null);
+  const ref8 = useRef(null);
+
+  const isInView1 = useInView(ref1, { once: true, margin: '0px 0px -100px 0px' });
+  const isInView2 = useInView(ref2, { once: true, margin: '0px 0px -100px 0px' });
+  const isInView3 = useInView(ref3, { once: true, margin: '0px 0px -100px 0px' });
+  const isInView4 = useInView(ref4, { once: true, margin: '0px 0px -100px 0px' });
+  const isInView5 = useInView(ref5, { once: true, margin: '0px 0px -100px 0px' });
+  const isInView6 = useInView(ref6, { once: true, margin: '0px 0px -100px 0px' });
+  const isInView7 = useInView(ref7, { once: true, margin: '0px 0px -100px 0px' });
+  const isInView8 = useInView(ref8, { once: true, margin: '0px 0px -100px 0px' });
+
+
+
+
+
+
+
+
     return (
       <div>
+
+  <motion.div
+    initial={{ opacity: 0, y: 20 }}
+    animate={{ opacity: 1, y: 0 }}
+    transition={{ duration: 0.6, ease: 'easeOut' }}
+  >
+
        <div className="bg-[#3478F3] h-[550px] rounded-bl-[104px] flex justify-center">
   <div className="container mx-auto px-3 md:px-8 lg:px-10 lg:w-full xl:w-[63%]">
     <div className="flex mt-5 justify-between items-center w-full">
       <BsGearFill className="text-blue-900 text-3xl" />
       <Button color="blue" text="Get your card" icon={FaArrowRight} />
-    </div>
+      </div>
 
     <div className="flex flex-col md:flex-row mt-12 relative gap-x-8">
       <div className="w-full md:w-1/2 text-center md:text-left">
@@ -110,22 +151,126 @@
   />
 </div>
 
-  
-
-
     </div>
   </div>
 </div>
 
+</motion.div>
+
+
+<motion.div
+    initial={{ opacity: 0, y: 20 }}
+    animate={{ opacity: 1, y: 0 }}
+    transition={{ duration: 0.6, ease: 'easeOut' }}
+  >
+
         <Cards/>
-        <AtmCards/>
+
+        </motion.div>
+
+
+           {/* ATM Cards Animation */}
+      <motion.div
+        ref={ref1}
+        initial={{ opacity: 0, y: 20 }}
+        animate={isInView1 ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
+        transition={{ duration: 0.6, ease: 'easeOut' }}
+      >
+        <AtmCards />
+      </motion.div>
+
+      {/* Map Card Animation */}
+      <motion.div
+        ref={ref2}
+        initial={{ opacity: 0, y: 20 }}
+        animate={isInView2 ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
+        transition={{ duration: 0.6, ease: 'easeOut' }}
+      >
+        <MapCard />
+      </motion.div>
+
+      {/* Brand Rewards Animation */}
+      <motion.div
+        ref={ref3}
+        initial={{ opacity: 0, y: 20 }}
+        animate={isInView3 ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
+        transition={{ duration: 0.6, ease: 'easeOut' }}
+      >
+        <BrandRewards />
+      </motion.div>
+
+      {/* Accounts Animation */}
+      <motion.div
+        ref={ref4}
+        initial={{ opacity: 0, y: 20 }}
+        animate={isInView4 ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
+        transition={{ duration: 0.6, ease: 'easeOut' }}
+      >
+        <Accounts />
+      </motion.div>
+
+      {/* Compliance Card Animation */}
+      <motion.div
+        ref={ref5}
+        initial={{ opacity: 0, y: 20 }}
+        animate={isInView5 ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
+        transition={{ duration: 0.6, ease: 'easeOut' }}
+      >
+        <ComplianceCard />
+      </motion.div>
+
+      {/* Subscriptions Animation */}
+      <motion.div
+        ref={ref6}
+        initial={{ opacity: 0, y: 20 }}
+        animate={isInView6 ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
+        transition={{ duration: 0.6, ease: 'easeOut' }}
+      >
+        <Subscriptions />
+      </motion.div>
+
+      {/* FAQs Animation */}
+      <motion.div
+        ref={ref7}
+        initial={{ opacity: 0, y: 20 }}
+        animate={isInView7 ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
+        transition={{ duration: 0.6, ease: 'easeOut' }}
+      >
+        <FAQS />
+      </motion.div>
+
+      {/* Footer Animation */}
+      <motion.div
+        ref={ref8}
+        initial={{ opacity: 0, y: 20 }}
+        animate={isInView8 ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
+        transition={{ duration: 0.6, ease: 'easeOut' }}
+      >
+        <Footer />
+      </motion.div>
+
+
+        
+
+        {/* <motion.div
+      ref={ref}
+      initial={{ opacity: 0, y: 20 }}
+      animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
+      transition={{ duration: 0.6, ease: 'easeOut' }}
+    >
+      <AtmCards />
+    </motion.div>
+
+
+
         <MapCard/>
         <BrandRewards/>
         <Accounts/>   
         <ComplianceCard/>
         <Subscriptions/>
         <FAQS/>
-        <Footer/>
+        <Footer/> */}
+
       </div>
     );
   };

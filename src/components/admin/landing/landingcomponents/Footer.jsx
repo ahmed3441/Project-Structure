@@ -185,7 +185,7 @@ const Footer = () => {
         <div className="mt-5 relative">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-6">
             {/* First Column with Logo */}
-            <div className="flex justify-center sm:justify-start new_gradient">
+            <div className="flex justify-center sm:justify-start">
               <BsGearFill className="text-blue-600 text-3xl" />
             </div>
             {headings.map((item, index) => (
